@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	  font-family: "Open Sans", sans-serif;
+
+}
+.img-thumbnail {
+	width: 280px;
+	margin: 12px;
+}
+
+footer {
+	margin: 12px;
+}
+
+.jumbotron {
+	width: 60%;
+	margin-left: 30px;
+}
+
+.account-icon {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.list-title {
+	margin-bottom: 10px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.box-spot {
+	width: 722px;
+	margin: 0 auto;
+}
+
+.list-boxes {
+	column-count: 2;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+.list-boxes li {
+	width: 370px;
+	display: block;
+	padding: 15px;
+	border: none;
+}
+
+.list-boxes input {
+	margin-left: 5px;
+	width: 300px;
+	height: 30px;
+}
+
+.tag-area {
+	width: 90%;
+	height: 120px;
+	border: #4D2D7E 10px solid;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.post_tags {
+	background-color: white;
+	color: #7C7C7C;
+    font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	border-radius: 10px;
+	border-color: #7C7C7C;
+	margin: 1px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.title-box, .started, .input-box, .numbered-box, .buttons {
+	margin-left: 47px;
+	margin-bottom: 20px;
+}
+
+.title-box {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.buttons2 {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.backpost {
+	float: right;
+}

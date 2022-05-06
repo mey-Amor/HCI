@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img-thumbnail {
+	width: 280px;
+	margin: 12px;
+}
+
+footer {
+	margin: 12px;
+}
+
+body{margin-top:20px;
+}
+
+.search-result-categories>li>a {
+    color: #b6b6b6;
+    font-weight: 400
+}
+
+.search-result-categories>li>a:hover {
+    background-color: #ddd;
+    color: #555
+}
+
+.search-result-categories>li>a>.glyphicon {
+    margin-right: 5px
+}
+
+.search-result-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px
+}
+
+.search-result-item:after,
+.search-result-item:before {
+    content: " ";
+    display: table
+}
+
+.search-result-item:after {
+    clear: both
+}
+
+@media (min-width:768px) {
+    .search-result-item .image {
+        display: inline-block;
+        margin: -20px 0 -20px -20px;
+        float: left;
+        width: 200px
+    }
+}
+
+@media (max-width:767px) {
+    .search-result-item .image {
+        max-height: 200px
+    }
+}
+
+.search-result-item .info {
+	font-family: "open-sans","sans-serif";
+    margin-top: 2px;
+    font-size: 14px;
+    color: #7C7C7C
+}
+
+.search-result-item .description {
+    font-size: 16px;
+	font-family: "open-sans","sans-serif";
+}
+
+.search-result-item+.search-result-item {
+    margin-top: 20px
+}
+
+@media (min-width:768px) {
+    .search-result-item-body {
+        margin-left: 200px
+    }
+}
+
+.search-result-item-heading {
+	font-family: "open-sans","sans-serif";
+    font-weight: bold;
+	font-size: 24px;
+}
+
+@media (min-width:768px) {
+    .search-result-item-heading {
+        margin: 0
+    }
+}
+
+.read_more {
+	background-image: linear-gradient(135deg, #BE90C1 10%, #4D2D7E 100%);
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+}
+
+.indent {
+	margin-left: 10px;
+}
+
+.indent1 {
+	margin-left: 14px;
+}
+
+.indent2 {
+	margin-left: 30px;
+}
+
+#applyFilters {
+	color: white;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  background-image: linear-gradient(135deg, #BE90C1 10%, #4D2D7E 100%);
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+}
+
+#pageTitle {
+	font-family: "open-sans","sans-serif";
+	font-size: 36px;
+	padding-bottom: 10px;
+}
+
+#filterTitle {
+	font-family: "open-sans","sans-serif";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.filterCategory {
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+}
+
+.tag_button {
+	background-color: gray;
+	color: white;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 1px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.post_tags {
+	background-color: white;
+	color: #7C7C7C;
+	font-family: "open-sans","sans-serif";
+	font-size: 14px;
+	border-radius: 10px;
+	border-color: #7C7C7C;
+	margin: 1px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.tags_bar {
+	display: inline;
+}
+
+.add_list {
+	border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+	background-image: linear-gradient(135deg, #556b2f 10%, #3b4b21 100%);
+	color: white;
+	padding: 10px;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+	align-self: center;
+	margin-top: 5px;
+}
+
+.center_objects {
+	display: flex; 
+	justify-content: center;
+}
+
+.results_header {
+	font-family: "open-sans","sans-serif";
+	font-size: 30px;
+}
+
+.load_more {
+	border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+	color: white;
+  background-image: linear-gradient(135deg, #BE90C1 10%, #4D2D7E 100%);
+	padding: 5px;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+	align-self: center;
+	margin-bottom: 15px;
+}
+
+.profileButton {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.sidebarButton {
+	color: white;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  background-image: linear-gradient(135deg, #BE90C1 10%, #4D2D7E 100%);
+	padding: 10px;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+	width: 100%
+}
+.Logout{
+	color: white;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+ background-image: linear-gradient(135deg, #dc143c 10%, #840c24 100%);	
+	padding: 10px;
+	font-family: "open-sans","sans-serif";
+	font-size: 16px;
+	width: 100%
+}

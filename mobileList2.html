@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bootstrap Lab</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="mobile.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	
+<body style="background-color: lightgray;">
+	<header style="position: sticky; top: 0;">
+		<img src="images/rankit-color.svg" class="appLogo">
+		<button class="profileButton"><i style="font-size:36px; color:dimgray" class="fa fa-user-circle"></i></button>
+	</header>
+		
+	<div class="content">
+		<div class="list-section">
+			<h1 class="h1 list-title"><strong>Laguna Beach,FL</strong></h1>
+
+				<div class ="addItem"  style="display: inline-block;">
+					<ul class="nav nav-tabs nav-justified" role="tablist" style="white-space: pre;margin-top: 40px; ">
+						<li class="active"><i class="fa fa-camera" aria-hidden="true"></i>
+                           </li>
+						
+          				<li><i class="fa fa-video-camera" aria-hidden="true"></i>
+
+                           </li>
+						<li><i class="fa fa-text-width" aria-hidden="true"></i>
+
+
+                           </li>
+      			  </ul>
+					
+		</div>
+			<div> 
+				<textarea style="width: 100%; height:500px;" placeholder="Edit here" ></textarea>
+			</div>
+
+		<div class="buttons" >
+			<button type="button" class="CancelButton" onClick="cancelButton()">Cancel</button>
+			<div class="backpost">
+				
+				<a href="mobileList1.html"><button type="button" class="OkButton" onClick="postButton()">OK</button>
+					</a>
+			</div>
+		</div>
+	</div>		
+	</div>
+
+
+</body>
+	
+	<footer style="	position: sticky;">
+		
+		<div class="footer" style="	background-color: white;">
+		<button class="navbarButton"><i style="font-size: 36px; color: dimgray" class="fa fa-comments"></i></button>
+		<button class="navbarButton" onclick="document.location = 'mobileHome.html'"><i style="font-size: 36px; color: dimgray" class="fa fa-home"></i></button>
+		<button class="navbarButton" onclick="document.location = 'mobileExplore.html'"><i style="font-size: 36px; color: dimgray" class="fa fa-search"></i></button>
+			</div>
+	</footer>
+</html>
+<script>
+		function cancelButton(){
+			alert("Are you sure you would like to leave? Current changes will not be saved.");
+			document.location.href = "mobileHome.html";
+		}
+		
+		
+	</script>

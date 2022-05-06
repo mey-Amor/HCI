@@ -1,0 +1,51 @@
+.column {
+	float: left;
+	width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.postThumbnail{
+	background-color: transparent;
+	border-color: transparent;
+	align: center;
+}
+
+.postTitle {
+	font-family: Helvetica, Arial, "sans-serif";
+    font-weight: bold;
+	font-size: 16px;
+}
+
+.postDescription {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+}
+
+.exploreColumn {
+	margin: 1px;
+}
+
+.postPreview {
+	background-color: whitesmoke; 
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.postPreview .description {
+	font-size: 16px;
+	font-family: Arial, "sans-serif"
+}
+
+.postPreview .info {
+	font-family: Times, "Times New Roman", "serif";
+    margin-top: 2px;
+    font-size: 14px;
+    color: #7C7C7C
+}
